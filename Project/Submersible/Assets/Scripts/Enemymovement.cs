@@ -14,10 +14,7 @@ public class Enemymovement : MonoBehaviour
 	{
 
 	
-		if(transform.position.x > -30.5)
-		{
-			transform.localRotation = Quaternion.Euler (0, 0, 0);
-		}
+
 
 	}
 
