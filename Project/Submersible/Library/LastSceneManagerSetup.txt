@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/Wong Lake/Submersible (Wong Lake).unity
+=======
+- path: Assets/Scenes/Cave Level/Cave_V4.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
