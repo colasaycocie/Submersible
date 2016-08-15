@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submersible.CSharp", "Submersible.CSharp.csproj", "{AE9B6A62-3EC0-FCF1-9D90-245DEDDF38C0}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0B69FC06-C967-17EB-3708-9A2C4B5B12D7}") = "Submersible", "Assembly-CSharp.csproj", "{4F54E463-E2A4-F93B-C761-632DA371DD9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE9B6A62-3EC0-FCF1-9D90-245DEDDF38C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE9B6A62-3EC0-FCF1-9D90-245DEDDF38C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE9B6A62-3EC0-FCF1-9D90-245DEDDF38C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE9B6A62-3EC0-FCF1-9D90-245DEDDF38C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F54E463-E2A4-F93B-C761-632DA371DD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F54E463-E2A4-F93B-C761-632DA371DD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F54E463-E2A4-F93B-C761-632DA371DD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F54E463-E2A4-F93B-C761-632DA371DD9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
