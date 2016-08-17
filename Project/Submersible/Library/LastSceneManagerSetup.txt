@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/MainTitle/MainTitle.unity
+- path: Assets/Scenes/Cave Level/Cave_V5.unity
   isLoaded: 1
   isActive: 1
