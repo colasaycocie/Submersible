@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/The Descent/Descent_V3.unity
+- path: Assets/Scenes/Menus/MainTitle/MainTitle.unity
   isLoaded: 1
   isActive: 1
