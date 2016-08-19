@@ -9,9 +9,13 @@ public class Damage : MonoBehaviour {
 
 	public GameObject sub;
 
+	public HealthBar myHealthBar;
+
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+		myHealthBar = myHealthBar.GetComponent<HealthBar> ();
+
 	}
 	
 	// Update is called once per frame
@@ -43,6 +47,9 @@ public class Damage : MonoBehaviour {
 		while (health >= 0)
 		{
 			health -= 1.0f;
+
+			myHealthBar.LoseHealth ();
+
 			Debug.Log (health);
 			yield return new WaitForSeconds (1f);
 		}

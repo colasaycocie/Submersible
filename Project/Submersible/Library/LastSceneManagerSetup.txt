@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/The Descent/Descent_V4.unity
+- path: Assets/Scenes/Cave Level/Cave_V6_UI_TEST.unity
   isLoaded: 1
   isActive: 1
