@@ -7,6 +7,8 @@ public class Damage : MonoBehaviour {
 	int damageAmount;
 	int damageTime;
 
+	public GameObject sub;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,20 +16,22 @@ public class Damage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (health == 0.0f) {
-			Destroy (gameObject);
+		if (health <= 0.0f) {
 			Debug.Log ("Player destroyed");
+
+			StartCoroutine (DamageOverTimeCoroutine2 (1f));
 		}
 	}
-	void OnCollisionEnter(Collision col)
+	void OnCollisionEnter2D(Collision2D col)
 	{
 		if (col.gameObject.tag == "Enemy")
 		{
 			StartCoroutine (DamageOverTimeCoroutine (1f));
+
 		}
 	}
 
-	void OnCollisionExit(Collision collisionInfo)
+	void OnCollisionExit2D(Collision2D collisionInfo)
 	{
 
 		StopAllCoroutines();
@@ -41,6 +45,17 @@ public class Damage : MonoBehaviour {
 			health -= 1.0f;
 			Debug.Log (health);
 			yield return new WaitForSeconds (1f);
+		}
+
+	}
+
+	IEnumerator DamageOverTimeCoroutine2(float wait)
+	{
+		while (health <= 0)
+		{
+			sub.GetComponent<Movementplayer> ().enabled = false;
+			yield return new WaitForSeconds (3f);
+			Destroy (gameObject);
 		}
 
 	}
