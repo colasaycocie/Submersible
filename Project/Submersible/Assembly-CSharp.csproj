@@ -652,18 +652,6 @@
  <Reference Include="PlayMaker">
  <HintPath>C:/Users/jfloyd/Documents/Git/Submersible/Project/Submersible/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/Metro/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/WebGL/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/WP8/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -151,18 +151,6 @@
  <Reference Include="PlayMaker">
  <HintPath>C:/Users/jfloyd/Documents/Git/Submersible/Project/Submersible/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/Metro/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/WebGL/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/PlayMaker/Plugins/PlayMaker/WP8/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>D:/Work/GitHub/Submersible/Project/Submersible/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
