@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Cave Level/Cave_V6_UI_TEST.unity
+=======
+- path: Assets/Scenes/Cave Level/Cave_V5_UI_TEST.unity
+>>>>>>> cfa6ebefd35e6e60315c1d56bb4e9c08d9e3493b
   isLoaded: 1
   isActive: 1
