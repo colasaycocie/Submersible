@@ -60,6 +60,9 @@ public class Damage : MonoBehaviour {
 	{
 		while (health <= 0)
 		{
+
+			Application.LoadLevel ("LostScene");
+
 			sub.GetComponent<Movementplayer> ().enabled = false;
 			yield return new WaitForSeconds (3f);
 			Destroy (gameObject);

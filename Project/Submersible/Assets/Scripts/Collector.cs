@@ -27,6 +27,8 @@ public class Collector : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
 	{
+		GameObject.FindObjectOfType (typeof(Shoot));
+
 		pickupAudio = GetComponent<AudioSource> ();
 
 		myHealthScript = myHealthScript.GetComponent<Damage> ();
@@ -62,11 +64,7 @@ public class Collector : MonoBehaviour {
 			pickupAudio.Play ();
 
 			Destroy (other.gameObject);
-			++torpedosAmount;
-
-			numberofTorpedosText.text = torpedosAmount.ToString ();
-
-			Debug.Log ("Number of Torpedos: " + torpedosAmount);
+			Shoot.ammo++;
 
 		}
 
