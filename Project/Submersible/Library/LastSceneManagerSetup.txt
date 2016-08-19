@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/The Descent/Descent_V4.unity
+=======
+- path: Assets/Scenes/Menus/MainTitle/MainTitle.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
